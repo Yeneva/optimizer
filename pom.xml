@@ -40,6 +40,8 @@
         <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
         <skipTests>true</skipTests>
         <java.version>17</java.version>
+        <sonar.organization>yeneva</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <jackson.version>2.12.6</jackson.version>
